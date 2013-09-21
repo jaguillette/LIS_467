@@ -34,7 +34,7 @@ header h2 {
 	text-align: center;
 }
 
-nav {
+nav #navleft {
 	background-color: #1152BA;
 	width: 20%;
 	padding-bottom: 5.5em;
