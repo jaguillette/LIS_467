@@ -79,6 +79,7 @@ article {
 	padding-top: .5em;
 	padding-right: 1em;
 	padding-left: 1em;
+	padding-bottom: 3em;
 	font-size: 95%;
 	color: #F8F8F8;
 }
@@ -99,4 +100,5 @@ footer {
 	text-align: center;
 	font-size: 80%;
 	color: #F8F8F8;
+	border-top: 4em solid #1F1F1F;
 }
