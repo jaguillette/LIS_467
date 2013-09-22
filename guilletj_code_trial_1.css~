@@ -114,7 +114,7 @@ nav.navright h1 {
 
 /* Article Section */
 article {
-	width: 62%;
+	width: 59%;
 	float: left;
 	background-color: #424242;
 	padding-top: .5em;
