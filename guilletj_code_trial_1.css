@@ -67,12 +67,26 @@ nav.navright {
 nav h1 {
 	font-size: 95%;
 	color: #5CBE2D;
+	padding-bottom:0em;
+	margin:0em;
 }
 
 nav p {
 	font-family: 'Fauna One', serif;
 	font-size: 85%;
 	color: #F8F8F8;
+}
+
+nav ul {
+	padding-left: 1em;
+	padding-bottom: .25em;
+}
+
+nav ul li {
+	font-family: 'Fauna One', serif;
+	font-size: 85%;
+	color: #F8F8F8;
+	list-style:square;
 }
 
 /* Article Section */
