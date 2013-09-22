@@ -47,23 +47,18 @@ header h2 {
 	text-align: center;
 }
 
-nav.navleft {
+nav {
 	background-color: #1F1F1F;
 	width: 15%;
-	padding-bottom: 5.5em;
-	padding-top: 1em;
+	padding: 1em;
+}
+
+nav.navleft {
 	float: left;
-	padding-left: 1em;
 }
 
 nav.navright {
-	background-color: #1F1F1F;
-	width: 15%;
-	padding-bottom: 5.5em;
-	padding-top: 1em;
 	float: right;
-	padding-right: 1em;
-	padding-left: 1em;
 }
 
 nav p {
@@ -73,7 +68,7 @@ nav p {
 }
 
 article {
-	width: 60%;
+	width: 59%;
 	float: left;
 	background-color: #424242;
 	padding-top: .5em;
