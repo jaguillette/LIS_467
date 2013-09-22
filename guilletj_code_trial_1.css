@@ -20,14 +20,16 @@ a:hover {
 #wrap {
 	width: 80%;
 	margin: auto;
-	background-color: #424242;
+	background-color: #1F1F1F;
 }
 
 /* Header section */
 header {
 	width: 100%;
 	background-color: #424242;
-	padding-top: .2em;
+	padding-top:.2em;
+	padding-bottom:.1em;
+	border-bottom:1em solid #1F1F1F;
 }
 
 header h1 {
@@ -73,6 +75,8 @@ nav p {
 nav ul {
 	padding-left: 1em;
 	padding-bottom: .25em;
+	margin-top:.5em;
+	margin-bottom:.5em;
 }
 
 nav ul li {
@@ -142,5 +146,5 @@ footer {
 	text-align: center;
 	font-size: 80%;
 	color: #F8F8F8;
-	border-top: 4em solid #1F1F1F;
+	background-color:#424242;
 }
