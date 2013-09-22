@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: helvetica, sans-serif;
+	font-family: 'Fauna One', serif;
 	font-size: 100%;
 	background-color: #006BB8;
 }
@@ -20,14 +20,14 @@ header {
 }
 
 header h1 {
-	font-family: helvetica, sans-serif;
+	font-family: 'Fauna One', serif;
 	font-size: 150%;
 	color: #13033B;
 	text-align: center;
 }
 
 header h2 {
-	font-family: helvetica, sans-serif;
+	font-family: 'Fauna One', serif;
 	font-size: 115%;
 	font-style: italic;
 	color: #13033B;
@@ -56,7 +56,7 @@ nav.navright {
 }
 
 nav p {
-	font-family: helvetica, sans-serif;
+	font-family: 'Fauna One', serif;
 	font-size: 85%;
 	color: #340F91;
 }
@@ -66,7 +66,7 @@ nav a {
 }
 
 article {
-	width: 55%;
+	width: 60%;
 	float: left;
 	background-color: #6AB2E6;
 	padding-top: .5em;
