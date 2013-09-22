@@ -56,14 +56,6 @@ nav a:visited {
 	color:#f92672;
 }
 
-nav.navleft {
-	float: left;
-}
-
-nav.navright {
-	float: right;
-}
-
 nav h1 {
 	font-size: 95%;
 	color: #5CBE2D;
@@ -75,6 +67,7 @@ nav p {
 	font-family: 'Fauna One', serif;
 	font-size: 85%;
 	color: #F8F8F8;
+	width:100%;
 }
 
 nav ul {
@@ -87,6 +80,28 @@ nav ul li {
 	font-size: 85%;
 	color: #F8F8F8;
 	list-style:square;
+}
+
+nav img {
+	width:100%;
+	background-color:#424242;
+	padding: .3em;
+	display:block;
+}
+
+nav.navleft {
+	float: left;
+}
+
+nav.navright {
+	float: right;
+}
+
+nav.navright p {
+	font-size:60%;
+	background-color:#424242;
+	margin-top:0em;
+	padding:.5em;
 }
 
 /* Article Section */
