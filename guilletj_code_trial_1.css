@@ -104,6 +104,10 @@ nav.navright p {
 	padding:.5em;
 }
 
+nav.navright h1 {
+	margin-bottom: .5em;
+}
+
 /* Article Section */
 article {
 	width: 59%;
