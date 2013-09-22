@@ -34,14 +34,25 @@ header h2 {
 	text-align: center;
 }
 
-nav #navleft {
+nav.navleft {
 	background-color: #1152BA;
-	width: 20%;
+	width: 15%;
 	padding-bottom: 5.5em;
 	padding-top: 1em;
 	float: left;
 	padding-left: 1em;
 	border-right: .2em solid #002D4D;
+}
+
+nav.navright {
+	background-color: #1152BA;
+	width: 15%;
+	padding-bottom: 5.5em;
+	padding-top: 1em;
+	float: right;
+	padding-right: 1em;
+	padding-left: 1em;
+	border-left: .2em solid #002D4D;
 }
 
 nav p {
@@ -55,11 +66,12 @@ nav a {
 }
 
 article {
-	width: 75%;
-	float: right;
+	width: 55%;
+	float: left;
 	background-color: #6AB2E6;
 	padding-top: .5em;
 	padding-right: 1em;
+	padding-left: 1em;
 	font-size: 95%;
 }
 
