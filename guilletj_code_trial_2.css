@@ -1,0 +1,164 @@
+/* --------DOCUMENT-WIDE-------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fauna One', serif;
+	font-size: 100%;
+	background-color: #1F1F1F;
+}
+
+a {
+	color: #66D9EF;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #66D9EF;
+	text-decoration:underline;
+}
+
+#wrap {
+	width: 80%;
+	margin: auto;
+	background-color: #1F1F1F;
+}
+
+/* --------HEADER-------- */
+
+header {
+	width: 100%;
+	background-color: #424242;
+	padding-top:.2em;
+	padding-bottom:.1em;
+	border-bottom:1em solid #1F1F1F;
+}
+
+header h1 {
+	font-family: 'Fauna One', serif;
+	font-size: 150%;
+	color: #5CBE2D;
+	text-align: center;
+}
+
+header h2 {
+	font-family: 'Fauna One', serif;
+	font-size: 115%;
+	font-style: italic;
+	color: #5CBE2D;
+	text-align: center;
+}
+
+/* --------NAV-------- */
+nav a:visited {
+	color:#f92672;
+}
+
+nav h1 {
+	font-size: 95%;
+	color: #5CBE2D;
+	padding-bottom:0em;
+	margin:0em;
+}
+
+nav p {
+	font-family: 'Fauna One', serif;
+	font-size: 85%;
+	color: #F8F8F8;
+	width:100%;
+}
+
+nav ul {
+	padding-left: 1em;
+	padding-bottom: .25em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+
+nav ul li {
+	font-family: 'Fauna One', serif;
+	font-size: 85%;
+	color: #F8F8F8;
+	list-style:square;
+}
+
+/* --------LEFT NAV-------- */
+
+nav.navleft {
+	float: left;
+	background-color: #1F1F1F;
+	width: 15%; /* 12% of page width */ 
+	padding: 1.5%;
+	/* total width: 18% of wrap, 14.4% of total page width */
+}
+
+/* --------RIGHT NAV-------- */
+
+nav.navright {
+	float: right;
+	background-color: #1F1F1F;
+	width: 15%; /* 12% of page width */ 
+	padding: 1.5%;
+	/* total width: 18% of wrap, 14.4% of total page width */
+}
+
+nav.navright img {
+	width:100%;
+	background-color:#424242;
+	padding: .3em;
+	display:block;
+}
+
+nav.navright p {
+	font-size:60%;
+	background-color:#424242;
+	margin-top:0em;
+	padding:.5em;
+}
+
+nav.navright h1 {
+	margin-bottom: .5em;
+}
+
+/* --------ARTICLE-------- */
+
+article {
+	width: 61%;
+	float: left;
+	background-color: #424242;
+	padding-top: .5em;
+	padding-right: 1.5%;
+	padding-left: 1.5%;
+	padding-bottom: 3em;
+	font-size: 95%;
+	color: #F8F8F8;
+	/* total width: 64% of wrap, 51.2% of total */
+}
+
+article a:visited {
+	color:#FF478A;
+}
+
+article h1 {
+	color: #5CBE2D;
+}
+
+article h2 {
+	color: #5CBE2D;
+	font-size: 115%
+}
+
+/* --------FOOTER-------- */
+
+footer {
+	clear: both;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 80%;
+	color: #F8F8F8;
+	background-color:#424242;
+}
+
+/* --------MEDIA QUERIES-------- */
+
