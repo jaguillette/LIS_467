@@ -92,19 +92,27 @@ nav.navleft {
 	/* total width: 18% of wrap, 14.4% of total page width */
 }
 
-nav.navleft img {
+nav.navleft figure {
 	width:95%;
 	background-color:#424242;
 	padding: 3%;
 	display:block;
+	margin-bottom: 6%;
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
-nav.navleft p {
-	width: 95%;
+nav.navleft figure img {
+	width: 100%;
+}
+
+nav.navleft figure figcaption {
 	font-size:60%;
 	background-color:#424242;
 	margin-top:0em;
 	padding: 3%;
+	color: #F8F8F8;
 }
 
 nav.navleft h1 {
