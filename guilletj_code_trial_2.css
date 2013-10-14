@@ -92,6 +92,25 @@ nav.navleft {
 	/* total width: 18% of wrap, 14.4% of total page width */
 }
 
+nav.navleft img {
+	width:95%;
+	background-color:#424242;
+	padding: 3%;
+	display:block;
+}
+
+nav.navleft p {
+	width: 95%;
+	font-size:60%;
+	background-color:#424242;
+	margin-top:0em;
+	padding: 3%;
+}
+
+nav.navleft h1 {
+	margin-bottom: .5em;
+}
+
 /* --------RIGHT NAV-------- */
 
 nav.navright {
@@ -102,34 +121,16 @@ nav.navright {
 	/* total width: 18% of wrap, 14.4% of total page width */
 }
 
-nav.navright img {
-	width:100%;
-	background-color:#424242;
-	padding: .3em;
-	display:block;
-}
-
-nav.navright p {
-	font-size:60%;
-	background-color:#424242;
-	margin-top:0em;
-	padding:.5em;
-}
-
-nav.navright h1 {
-	margin-bottom: .5em;
-}
-
 /* --------ARTICLE-------- */
 
 article {
 	width: 61%;
 	float: left;
 	background-color: #424242;
-	padding-top: .5em;
+	padding-top: .75%;
 	padding-right: 1.5%;
 	padding-left: 1.5%;
-	padding-bottom: 3em;
+	padding-bottom: 4.5%;
 	font-size: 95%;
 	color: #F8F8F8;
 	/* total width: 64% of wrap, 51.2% of total */
@@ -162,3 +163,45 @@ footer {
 
 /* --------MEDIA QUERIES-------- */
 
+@media (max-width: 1080px) {
+	/* --------HEADER-------- */
+	header h1 {
+		font-size: 125%;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+	header h2 {
+		font-size: 90%;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+	/* --------NAV-------- */
+	nav.navleft {
+		width: 22%;
+	}
+	nav.navright {
+		float: bottom;
+		width: 100%;
+		text-align: center;
+	}
+	nav.navright h1 {
+		font-size: 90%;
+	}
+	nav.navright ul li {
+		list-style: none;
+		font-size: 70%;
+	}
+	/* --------ARTICLE-------- */
+	article {
+		width: 72%;
+	}
+}
+
+@media (max-width: 760px) {
+	nav.navleft {
+		display: none;
+	}
+	article {
+		width: 97%;
+	}
+}
