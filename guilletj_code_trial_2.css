@@ -54,20 +54,6 @@ nav a:visited {
 	color:#f92672;
 }
 
-nav h1 {
-	font-size: 95%;
-	color: #5CBE2D;
-	padding-bottom:0em;
-	margin:0em;
-}
-
-nav p {
-	font-family: 'Fauna One', serif;
-	font-size: 85%;
-	color: #F8F8F8;
-	width:100%;
-}
-
 nav ul {
 	padding-left: 1em;
 	padding-bottom: .25em;
@@ -90,6 +76,14 @@ nav.navleft {
 	width: 15%; /* 12% of page width */ 
 	padding: 1.5%;
 	/* total width: 18% of wrap, 14.4% of total page width */
+}
+
+nav.navleft h1 {
+	font-size: 95%;
+	color: #5CBE2D;
+	padding-bottom:0em;
+	margin:0em;
+	margin-bottom: .5em;
 }
 
 nav.navleft figure {
@@ -115,8 +109,11 @@ nav.navleft figure figcaption {
 	color: #F8F8F8;
 }
 
-nav.navleft h1 {
-	margin-bottom: .5em;
+nav.navleft p {
+	font-family: 'Fauna One', serif;
+	font-size: 85%;
+	color: #F8F8F8;
+	width:100%;
 }
 
 /* --------RIGHT NAV-------- */
@@ -129,11 +126,25 @@ nav.navright {
 	/* total width: 18% of wrap, 14.4% of total page width */
 }
 
+nav.navright h1 {
+	font-size: 95%;
+	color: #5CBE2D;
+	padding-bottom:0em;
+	margin:0em;
+}
+
+nav.navright li {
+	font-family: 'Fauna One', serif;
+	font-size: 85%;
+	color: #F8F8F8;
+	width:100%;
+}
+
 /* --------ARTICLE-------- */
 
 article {
 	width: 61%;
-	float: left;
+	float: right;
 	background-color: #424242;
 	padding-top: .75%;
 	padding-right: 1.5%;
@@ -188,16 +199,27 @@ footer {
 		width: 22%;
 	}
 	nav.navright {
-		float: bottom;
-		width: 100%;
-		text-align: center;
+		width: 97%;
+		padding-top: 0%
+	}
+	nav.navright li {
+		width: 16.666666667%;
+		padding: 0%;
+		padding-top: .25%;
+		padding-bottom: .25%;
+		float: left;
+		margin: 0%;
+		list-style: none;
+		font-size: 75%;
+		height: 2.5em;
 	}
 	nav.navright h1 {
 		font-size: 90%;
-	}
-	nav.navright ul li {
-		list-style: none;
-		font-size: 70%;
+		width: 98%;
+		padding: 1%;
+		padding-top: 0%;
+		float: left;
+		margin: 0%;
 	}
 	/* --------ARTICLE-------- */
 	article {
@@ -206,8 +228,22 @@ footer {
 }
 
 @media (max-width: 760px) {
+	nav.navright li {
+		width: 33%;
+		padding-bottom: 1%;
+	}
 	nav.navleft {
-		display: none;
+		width: 100%;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+	nav.navleft figure {
+		width: 29.33333333333%;
+		padding: 1%;
+		float: left;
+		margin: 1%;
 	}
 	article {
 		width: 97%;
